@@ -1,0 +1,94 @@
+---
+title: "Introduction à SSP Cloud"
+subtitle: "Une plateforme pour la recherche et la formation orientée statistiques/*data science*"
+author: "Florent Bédécarrats"
+date: "Octobre 2025"
+format: 
+  clean-revealjs:
+    slide-number: true
+    self-contained: true
+class: small-text
+editor_options: 
+  chunk_output_type: console
+---
+
+# Partie 1 : Présentation
+
+## Objectifs de la session
+
+Objectif : présenter un outil utile pour la formation et la recherche à l’UMI SOURCE
+
+Complément aux outils disponible sur son PC personnel pour :
+
+- Des capacités de calcul et de stockage supérieures
+- Des environnements reproductible 
+
+Des outils qui ont les avantages et inconvénients de la science ouvertes : 
+
+- Limité aux logiciels libres et aux données ouvertes (pas de données personnelles ou sensibles, pas de logiciels propriétaires)
+- Orienté sur la reproductibilité: a base de code et de git (peu adapté pour des manipulations point-clic)
+
+## SSP Cloud qu'est-ce que c'est ?
+
+> Description par les administrateurs :
+
+- "*Cette plateforme propose plusieurs services accessibles à tous les étudiants et aux agents du secteur public, __quel que soit leur pays d’origine__.*"
+- Une infrastructure de confiance hébergée par l’[Insee](https://insee.fr) et indépendante des fournisseurs de cloud commerciaux
+
+## Services aux utilisateurs 
+
+- [**Datalab Onyxia**](https://datalab.sspcloud.fr/) : un environnement de travail pour la data science, accessible depuis votre navigateur. Il permet de lancer des sessions Python, R, etc., avec des ressources CPU/GPU allouées à la demande.
+- [**Un catalogue de formations**](https://www.sspcloud.fr/catalog) en data science et en intelligence artificielle, accompagné d’exercices pratiques à réaliser directement sur Onyxia.
+- [**Un agent conversationnel**](https://llm.lab.sspcloud.f), équivalent à ChatGPT, mais local et basé sur des modèles d’IA open source.
+- [Un espace de discussion Slack](https://join.slack.com/t/3innovation/shared_invite/zt-1bo6y53oy-Y~zKzR2SRg37pq5oYgiPuA) est également disponible pour vous accompagner et répondre à vos questions.
+
+## D'un point de vue technique :
+
+Des ordinateurs physiques localisées dans les locaux de l'INSEE
+
+Des logiciels open sources largement utilisés dans le cloud, notamment : 
+
+- Une instance Kubernetes qui automatise la gestion d'applications conteneurisées
+- Un data lake MinIO qui fonctionne avec la même API qu'AWS
+- Un système de gestion des identités et accès Keycloak
+Une interface (Onyxia) qui facilite l'utilisation : logiciel développé par l'INSEE, aujourd'hui utilisée aussi par d'autres instituts de la statistiques et services publique.
+
+## Pour commencer, il vous faut 
+
+- Un navigateur web
+- Une adresse mail officielle (ex. @uvsq.fr, @ird.fr)
+- Un compte git (ex. github)
+
+# Partie 2 : démonstration/manipulation
+
+## Lancer une machine 
+
+Exemple avec RStudio
+
+- vous avez une machine avec des ressources à la demande : un environnemnt stable et homogène
+- tout ce dont vous avez besoin, c'est d'une connexion faible/moyenne pour que ça fonctionne
+
+## Combiner avec une forge Git 
+
+Petit rappel de ce qu'est Git/Github (ou gitlab)
+Création d'un repo sur github
+Clonage en local
+Envoi de données sur github 
+
+## Utiliser avec S3 
+
+aws.s3
+lire directement : données spatiales
+arrow
+
+## Paramétrer plus finement les configurations
+
+Définition de script d'initialisation
+
+https://github.com/InseeFrLab/sspcloud-init-scripts/tree/main
+
+## Précautions d'usage 
+
+- données publiques
+- attention à bien sauvegarder votre travail
+
