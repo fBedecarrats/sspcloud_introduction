@@ -14,6 +14,14 @@ editor_options:
 
 # Partie 1 : Présentation
 
+## Rapide questionnaire de démarrage
+
+![Flashez pour répondre au questionnaire](images/qrcode_sspcloud_intro.svg)
+
+Ou cliquez/saisizzez le lien :
+[https://framaforms.org/court-questionnaire-de-demarrage-formation-ssp-cloud-1761154542](https://framaforms.org/court-questionnaire-de-demarrage-formation-ssp-cloud-1761154542)
+
+
 ## Objectifs de la session
 
 Objectif : présenter un outil utile pour la formation et la recherche à l’UMI SOURCE
@@ -91,4 +99,12 @@ https://github.com/InseeFrLab/sspcloud-init-scripts/tree/main
 
 - données publiques
 - attention à bien sauvegarder votre travail
+
+## Questionnaire final
+
+
+![Flashez pour répondre au questionnaire](images/qrcode_sspcloud_intro_end.svg)
+
+Ou cliquez/saisizzez le lien :
+[https://framaforms.org/court-questionnaire-de-cloture-formation-ssp-cloud-1761156235](https://framaforms.org/court-questionnaire-de-cloture-formation-ssp-cloud-1761156235)
 
