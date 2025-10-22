@@ -15,3 +15,5 @@ It is particularly relevant for:
 - Training sessions, where all participants use identical, preconfigured environments
 - Research projects requiring scalable computation and shared workflows
 - Collaborative work across sites with limited local infrastructure
+
+See the presentation in French at : [https://fbedecarrats.github.io/sspcloud_introduction/presentation_sspcloud_fr](https://fbedecarrats.github.io/sspcloud_introduction/presentation_sspcloud_fr)
